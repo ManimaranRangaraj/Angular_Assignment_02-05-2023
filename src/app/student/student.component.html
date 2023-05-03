@@ -1,0 +1,25 @@
+<div>
+    Student List
+</div>
+<div class="mr-4">
+    <table class=" table table-sm">
+        <thead>
+            <tr class=" bg-primary">
+                <th>Student Name</th>
+                <th>Course</th>
+                <th>Course Duration</th>
+                <th>Training Mode</th>
+                <th>Location Info</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let student of students">
+                <td>{{student.StudentName}}</td>
+                <td>{{student.Course}}</td>
+                <td>{{student.CourseDuration}}</td>
+                <td>{{student.TrainingMode}}</td>
+                <td>{{student.LocationInfo}}</td>
+            </tr>
+        </tbody>
+    </table> 
+</div>

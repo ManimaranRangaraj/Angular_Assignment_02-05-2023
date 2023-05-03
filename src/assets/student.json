@@ -1,0 +1,26 @@
+[
+    {
+      "ID": 1,
+      "StudentName": "Manimaran",
+      "Course": ".NET",
+      "CourseDuration": 3,
+      "TrainingMode": "online",
+      "LocationInfo": "online"
+    },
+    {
+        "ID": 2,
+        "StudentName": "Mani",
+        "Course": "AWS",
+        "CourseDuration": 4,
+        "TrainingMode": "offline",
+        "LocationInfo": "coimbatore"
+    },
+    {
+        "ID": 3,
+        "StudentName": "Maran",
+        "Course": ".NET",
+        "CourseDuration": 5,
+        "TrainingMode": "offline",
+        "LocationInfo": "chennai"
+    }
+]  
